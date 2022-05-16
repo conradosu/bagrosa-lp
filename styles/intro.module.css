@@ -1,0 +1,34 @@
+.container {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:50px 0 8px 0;
+}
+.content {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.figure {
+    margin-right:25px;
+}
+.figure > img {
+    height:500px;
+}
+.description {
+    width:100%;
+    max-width:500px;
+    transform:translateY(-25px);
+}
+.description > h1 {
+    font-size:2rem;
+    line-height:2.2rem;
+    margin-bottom:25px;
+    color:#18366e;
+}
+.description > h2 {
+    font-size:1.3rem;
+    line-height:1.5rem;
+    font-weight:300;
+    color:#18366eaf;
+}
