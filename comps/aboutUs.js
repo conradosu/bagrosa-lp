@@ -6,17 +6,17 @@ const AboutUs = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <div className={styles.figure}>
-                    <ImageFadeIn src="\static\customDesign\display.png" alt=""/>
-                </div>
                 <div className={styles.description}>
                     <h1>
-                        Design Personalizado
+                        Qualidade que acompanha sua marca
                     </h1>
                     <h2>
-                        As sacolas de papel são duráveis e resistentes, uma forma inteligente de valorizar seu produto, sua marca, seu empenho como empreendedor e a satisfação do seu cliente.
+                        No ramo gráfico desde 1998, a Bag Rosa tem se especializado como fornecedor de Sacolas Personalizadas de Papel, investindo em maquinário moderno agregando diferenciais notáveis ao produto final.
                     </h2>
                 </div>
+                <Link href="/">
+                    <a className={styles.contact} rel="noopener noreferrer">Quero saber mais</a>
+                </Link>
             </div>
         </section>
     )
