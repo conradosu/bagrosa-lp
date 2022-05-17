@@ -1,0 +1,139 @@
+.container {
+    width:100%;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    margin-bottom:50px;
+}
+.content {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.description {
+    width:100%;
+    max-width:600px;
+    padding:0 50px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-right:50px;
+}
+.description > h1 {
+    font-size:2rem;
+    line-height:2.2rem;
+    color:#18366e;
+    margin-bottom:25px;
+}
+.description > h2 {
+    font-size:1.4rem;
+    line-height:1.6rem;
+    font-weight:500;
+    color:#18366ec4;
+    margin-bottom:25px;
+}
+.showcase {
+    width:100%;
+    max-width:600px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+}
+.showcaseContent {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.product {
+    min-width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.product > img {
+    height:100%;
+}
+.dotsContainer {
+    display:flex;
+    position:absolute;
+    bottom:15px;
+    z-index:1;
+}
+.dot {
+    width:12px;
+    height:12px;
+    margin:0 4px;
+    border-radius:50%;
+    opacity:0.2;
+    background-color:black;
+    transition:ease 0.2s;
+}
+.dot:hover {
+    opacity:0.4;
+}
+.navLeft {
+    position:absolute;
+    top:0;
+    left:15px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:1;
+}
+.navRight {
+    position:absolute;
+    top:0;
+    right:15px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:1;
+}
+.back {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:#072152;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:ease 0.2s;
+}
+.back:hover {
+    opacity:0.8;
+}
+.back > svg {
+    width:40px;
+    height:40px;
+    fill:white;
+    transform:translateX(-1px);
+}
+.next {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:#072152;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:ease 0.2s;
+}
+.next:hover {
+    opacity:0.8;
+}
+.next > svg {
+    width:40px;
+    height:40px;
+    fill:white;
+    transform:translateX(1px);
+}

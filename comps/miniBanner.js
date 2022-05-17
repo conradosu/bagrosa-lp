@@ -1,13 +1,8 @@
 import styles from "../styles/miniBanner.module.css";
 import Link from "next/link";
 import ImageFadeIn from "react-image-fade-in";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 const MiniBanner = () => {
-    const banners = [
-        "http://www.bagrosa.com.br/images/banners/desktop/banner_joia_v4.jpg",
-    ];
-
     return (
         <section className={styles.container}>
             <div className={styles.content}>
