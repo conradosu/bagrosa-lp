@@ -7,7 +7,7 @@ const Shipping = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.figure}>
-                    <ImageFadeIn src="http://www.bagrosa.com.br/images/icones/caminhao-ico.svg" alt=""/>
+                    <ImageFadeIn src="http://www.bagrosa.com.br/images/icones/caminhao-ico.svg" alt="" loading="lazy"/>
                 </div>
                 <h1 className={styles.title}>
                     Entregamos para todo o Brasil

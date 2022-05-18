@@ -6,7 +6,7 @@ const Intro = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.figure}>
-                    <ImageFadeIn src="http://www.bagrosa.com.br/images/sacmar_19.png" alt=""/>
+                    <ImageFadeIn src="http://www.bagrosa.com.br/images/sacmar_19.png" alt="" loading="lazy"/>
                 </div>
                 <div className={styles.description}>
                     <h1>

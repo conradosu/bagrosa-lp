@@ -12,7 +12,7 @@ const MainBanner = () => {
             <div className={styles.content}>
                 {banners.map((banner, i) => (
                     <div className={styles.banner} key={i}>
-                        <ImageFadeIn src={banner} alt=""/>
+                        <ImageFadeIn src={banner} alt="" loading="lazy"/>
                     </div>
                 ))}
             </div>

@@ -7,9 +7,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 const MainProducts = () => {
     const [showCaseMov, setShowCaseMov] = useState(0);
     const images = [
-        "http://www.bagrosa.com.br/slick/images/prod-1.png",
-        "http://www.bagrosa.com.br/slick/images/prod-2.png",
-        "http://www.bagrosa.com.br/slick/images/prod-3.png"
+        "http://www.bagrosa.com.br/slick/images/prod-1.png"
     ];
 
     useEffect(() => {

@@ -15,7 +15,7 @@ const MiniBanner = () => {
                     </Link>
                 </div>
                 <div className={styles.figure}>
-                    <ImageFadeIn src="http://www.bagrosa.com.br/images/maos_29.png" alt=""/>
+                    <ImageFadeIn src="http://www.bagrosa.com.br/images/maos_29.png" alt="" loading="lazy"/>
                 </div>
             </div>
         </section>
