@@ -43,3 +43,32 @@
 .figure > img {
     height:125%;
 }
+
+@media (max-width:768px) {
+    .container {
+        height:auto;
+        margin-top:75px;
+    }
+    .content {
+        flex-direction:column;
+    }
+    .figure > img {
+        width:80%;
+        height:auto;
+        transform:translateY(-30px);
+    }
+    .description {
+        width:90%;
+        padding:50px 0;
+        text-align:center;
+        margin-right:0;
+    }
+    .description > h1 {
+        font-size:1.5rem;
+        line-height:1.7rem;
+    }
+    .description > h2 {
+        font-size:1.2rem;
+        line-height:1.4rem;
+    }
+}

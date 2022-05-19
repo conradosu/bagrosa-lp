@@ -27,3 +27,17 @@
 .clients > img {
     width:165px;
 }
+
+@media (max-width:768px) {
+    .titleContainer {
+        margin-bottom:25px;
+    }
+    .clients {
+        width:80%;
+        flex-wrap:wrap;
+    }
+    .clients > img {
+        width:30%;
+        margin:-25px 0;
+    }
+}

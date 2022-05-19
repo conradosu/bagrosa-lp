@@ -8,7 +8,8 @@
     margin-top:100px;
 }
 .bagTop {
-    width:1000px;
+    width:100%;
+    max-width:1000px;
     transform:translateY(-38px);
 }
 .bagTop > img {

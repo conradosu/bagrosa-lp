@@ -46,3 +46,20 @@
     color:white;
     background-color:#18366e;
 }
+
+@media (max-width:768px) {
+    .container {
+        margin-top:75px;
+    }
+    .description {
+        margin-bottom:25px;
+    }
+    .description > h1 {
+        font-size:1.5rem;
+        line-height:1.7rem;
+    }
+    .description > h2 {
+        font-size:1.2rem;
+        line-height:1.4rem;
+    }
+}

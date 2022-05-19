@@ -63,3 +63,29 @@
 .contact:hover {
     opacity:0.8;
 }
+
+@media (max-width:768px) {
+    .keyPoints {
+        justify-content:center;
+        flex-direction:column;
+    }
+    .titleContainer {
+        justify-content:center;
+        flex-direction:column;
+    }
+    .titleContainer > img {
+        width:60px;
+        height:60px;
+        margin-right:0;
+        margin-bottom:10px;
+    }
+    .point {
+        margin-bottom:50px;
+    }
+    .description {
+        text-align:center;
+    }
+    .actionContainer {
+        margin-top:10px;
+    }
+}

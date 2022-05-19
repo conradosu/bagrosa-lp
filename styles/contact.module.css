@@ -59,3 +59,12 @@
 .contact > img {
     height:85px;
 }
+
+@media (max-width:768px) {
+    .content {
+        border-radius:0;
+    }
+    .figure {
+        display:none;
+    }
+}
