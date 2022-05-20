@@ -10,11 +10,13 @@ import MainProducts from '../comps/mainProducts';
 import MiniBanner from '../comps/miniBanner';
 import OurClients from '../comps/ourClients';
 import Shipping from '../comps/shipping';
+import WpFloatButton from '../comps/wpFloatButton';
 
 const Home = () => {
   return (
     <>
     <NextSeo title="Bag Rosa"/>
+    <WpFloatButton/>
     <MainBanner/>
     <Intro/>
     <MiniBanner/>
