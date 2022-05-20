@@ -19,7 +19,7 @@ const Contact = () => {
                         </h2>
                     </div>
                     <div className={styles.actionContainer}>
-                        <Link href="/">
+                        <Link href="/contato">
                             <a className={styles.contact} rel="noopener noreferrer">
                                 <ImageFadeIn src="http://www.bagrosa.com.br/images/aindacomduvidas_77.png" alt="" loading="lazy"/>
                             </a>

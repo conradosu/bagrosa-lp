@@ -1,0 +1,115 @@
+.container {
+    width:450px;
+    padding:25px 75px;
+    border-radius:10px;
+    border:1px solid #223e71be;
+    background-color:white;
+    margin:25px auto;
+}
+.content {
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction:column;
+}
+.logo {
+    margin-bottom:35px;
+}
+.logo > img {
+    width:150px;
+}
+.description {
+    text-align:center;
+    margin-bottom:25px;
+}
+.description > h1 {
+    font-size:1.3rem;
+    line-height:1.5rem;
+    font-weight:500;
+    color:#223d71;
+    margin-bottom:5px;
+}
+.description > h2 {
+    font-size:1.1rem;
+    line-height:1.3rem;
+    font-weight:300;
+    color:#223e71c7;
+}
+.form {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.form > input {
+    width:100%;
+    padding:17px 15px 12px 15px;
+    border-radius:3px;
+    border:solid #223d71 1px;
+    outline:solid transparent 1px;
+    text-align:center;
+    display:block;
+    margin-bottom:15px;
+    font-size:1rem;
+    line-height:1.2rem;
+    font-weight:300;
+    transition:ease 0.3s;
+}
+.form > input:focus {
+    outline:solid #223d71 1px;
+}
+.form > div {
+    text-align:center;
+    font-size:1rem;
+    line-height:1.2rem;
+    font-weight:300;
+    color:#223d71;
+    opacity:0.9;
+}
+.form > button {
+    width:150px;
+    height:50px;
+    padding-top:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#223d71;
+    color:white;
+    border-radius:5px;
+    font-size:1rem;
+    line-height:1.2rem;
+    font-weight:300;
+    margin-top:10px;
+    transition:ease 0.3s;
+}
+.form > button:hover {
+    opacity:0.8;
+}
+.or {
+    margin:20px 0 15px 0;
+}
+.or > h1 {
+    font-size:1.8rem;
+    line-height:2rem;
+    font-weight:300;
+    color:#223d71;
+}
+.whatsapp {
+    text-align:center;
+    width:250px;
+    height:65px;
+    padding-top:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#223d71;
+    color:white;
+    border-radius:5px;
+    font-size:1rem;
+    line-height:1.4rem;
+    font-weight:300;
+    transition:ease 0.3s;
+}
+.whatsapp:hover {
+    opacity:0.8;
+}

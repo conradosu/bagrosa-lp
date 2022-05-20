@@ -36,7 +36,7 @@ const KeyPoints = () => {
                     </div>
                 </div>
                 <div className={styles.actionContainer}>
-                    <Link href="/">
+                    <Link href="/contato">
                         <a className={styles.contact} rel="noopener noreferrer">Quero saber mais</a>
                     </Link>
                 </div>

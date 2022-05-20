@@ -12,7 +12,7 @@ const Shipping = () => {
                 <h1 className={styles.title}>
                     Entregamos para todo o Brasil
                 </h1>
-                <Link href="/">
+                <Link href="/contato">
                     <a className={styles.contact} rel="noopener noreferrer">Quero saber mais</a>
                 </Link>
             </div>

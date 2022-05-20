@@ -14,7 +14,7 @@ const AboutUs = () => {
                         No ramo gráfico desde 1998, a Bag Rosa tem se especializado como fornecedor de Sacolas Personalizadas de Papel, investindo em maquinário moderno agregando diferenciais notáveis ao produto final.
                     </h2>
                 </div>
-                <Link href="/">
+                <Link href="/contato">
                     <a className={styles.contact} rel="noopener noreferrer">Quero saber mais</a>
                 </Link>
             </div>

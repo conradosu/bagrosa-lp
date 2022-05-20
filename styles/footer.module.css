@@ -22,7 +22,7 @@
     justify-content:flex-start;
     align-items:center;
     flex-direction:column;
-    padding-bottom:100px;
+    padding-bottom:30px;
 }
 .logo {
     margin-bottom:15px;
@@ -55,4 +55,82 @@
     height:20px;
     fill:white;
     transition:ease 0.3s;
+}
+.info {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+}
+.location {
+    text-align:left;
+}
+.location > h1 {
+    font-size:1.5rem;
+    line-height:1.7rem;
+    color:white;
+}
+.location > h2 {
+    font-size:1.1rem;
+    line-height:1.4rem;
+    font-weight:300;
+    color:white;
+    opacity:0.7;
+    margin-top:2px;
+}
+.openingHours {
+    text-align:right;
+}
+.openingHours > h1 {
+    font-size:1.5rem;
+    line-height:1.7rem;
+    color:white;
+}
+.openingHours > h2 {
+    font-size:1.1rem;
+    line-height:1.4rem;
+    font-weight:300;
+    color:white;
+    opacity:0.7;
+    margin-top:2px;
+}
+.copyright {
+    text-align:center;
+    font-size:0.9rem;
+    line-height:1.1rem;
+    font-weight:500;
+    color:white;
+    opacity:0.7;
+    margin-top:50px;
+}
+.dev {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:25px;
+}
+
+@media (max-width:768px) {
+    .info {
+        width:90%;
+    }
+    .copyright {
+        width:90%;
+    }
+    .location > h1 {
+        font-size:1.4rem;
+        line-height:1.6rem;
+    }
+    .location > h2 {
+        font-size:1rem;
+        line-height:1.2rem;
+    }
+    .openingHours > h1 {
+        font-size:1.4rem;
+        line-height:1.6rem;
+    }
+    .openingHours > h2 {
+        font-size:1rem;
+        line-height:1.2rem;
+    }
 }
