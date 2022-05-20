@@ -45,11 +45,11 @@ input::-webkit-inner-spin-button {
 
 ::-moz-selection {
   color:white;
-  background:#181818;
+  background:#3655ad;
 }
 ::selection {
   color:white;
-  background:#181818;
+  background:#3655ad;
 }
 
 @media (min-width:768px) {

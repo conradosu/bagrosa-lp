@@ -55,9 +55,11 @@ const Footer = () => {
                 <div className={styles.copyright}>
                     Bag Rosa Embalagens, 2021. Todos os direitos reservados. As imagens ustilizadas são meramente ilustrativas.
                 </div>
-                <div className={styles.dev}>
-                    <ImageFadeIn src="https://bagrosa.com.br/images/rodapeweb_text_18.png" alt="" loading="lazy"/>
-                </div>
+                <Link href="https://bruko.pro">
+                    <a className={styles.dev} rel="noopener noreferrer" target="_blank">
+                        <ImageFadeIn src="https://bagrosa.com.br/images/rodapeweb_text_18.png" alt="" loading="lazy"/>
+                    </a>
+                </Link>
             </div>
         </section>
     )
