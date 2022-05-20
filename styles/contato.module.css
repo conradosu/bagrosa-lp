@@ -113,3 +113,11 @@
 .whatsapp:hover {
     opacity:0.8;
 }
+
+@media (max-width:768px) {
+    .container {
+        width:calc(100% - 20px);
+        margin:15px auto;
+        padding:25px;
+    }
+}

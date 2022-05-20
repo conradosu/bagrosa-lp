@@ -19,8 +19,8 @@ const Contact = () => {
                         </h2>
                     </div>
                     <div className={styles.actionContainer}>
-                        <Link href="/contato">
-                            <a className={styles.contact} rel="noopener noreferrer">
+                        <Link href="https://api.whatsapp.com/send?phone=554199298026">
+                            <a className={styles.contact} rel="noopener noreferrer" target="_blank">
                                 <ImageFadeIn src="http://www.bagrosa.com.br/images/aindacomduvidas_77.png" alt="" loading="lazy"/>
                             </a>
                         </Link>
