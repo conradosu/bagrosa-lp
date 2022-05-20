@@ -15,12 +15,12 @@ const Footer = () => {
                     <ImageFadeIn src="http://www.bagrosa.com.br/images/rodapeweb_text_03.png" alt="" loading="lazy"/>
                 </div>
                 <div className={styles.socialContainer}>
-                    <Link href="/">
+                    <Link href="https://www.facebook.com/bagrosa/?ref=br_rs">
                         <a className={styles.social} rel="noopener noreferrer" target="_blank">
                             <FaFacebookF/>  
                         </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="https://www.instagram.com/bagrosaembalagens/">
                         <a className={styles.social} rel="noopener noreferrer" target="_blank">
                             <FaInstagram/>  
                         </a>
